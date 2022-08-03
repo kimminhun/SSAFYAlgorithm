@@ -1,5 +1,4 @@
 from collections import deque
-from operator import truediv
 import sys
 
 
@@ -13,11 +12,11 @@ class Printer:
 T=int(sys.stdin.readline())
 
 
-
 for _ in range(T):
     N,M=map(int,sys.stdin.readline().split())
     
-    ar=list(map(int,sys.stdin.readline().split()))
+    ar=list(map(int,sys.stdin.readline().split()))  #중요도 리스트
+
     printerlist=deque()
     
     for i,x in enumerate(ar):
@@ -39,4 +38,3 @@ for _ in range(T):
         else:
             printerlist.append(printerlist[0])
             printerlist.popleft()
-    

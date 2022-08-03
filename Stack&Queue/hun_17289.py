@@ -1,11 +1,11 @@
 #오큰수
 from collections import deque
 
-
 n=int(input())
 ls=list(map(int,input().split()))
 
 ar=[-1]*n
+
 stack=deque()
 
 for i in range(n):
