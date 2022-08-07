@@ -6,7 +6,7 @@ for _ in range(tc):
     if n[0] == 'push':
         s.append(n[1])
     elif n[0] == 'pop':
-        print(stack.pop()) if len(s) else print(-1)
+        print(s.pop()) if len(s) else print(-1)
     elif n[0] == 'size':
         print(len(s))
     elif n[0] == 'empty':

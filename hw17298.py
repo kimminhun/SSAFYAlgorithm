@@ -1,28 +1,22 @@
 import sys
+from collections import deque
 input = sys.stdin.readline
+
 n = int(input())
-st = ist(map(int, input().split()))
-target = []
+lis = list(map(int, input().split()))
 result = [-1]*n
+st = deque()
 
-st.reverse()
-idx = 0
-target.append((idx, st.pop()))
-
-while st:
-    t = st.pop()
-    idx += 1
-    while target and target[-1][1] < t:
-        a, b = target.pop()
-        result[a] = t
-
-    target.append((idx, t))
-for i in result:
-    print(i, end = '')
+for i in range(n):
+    while st:
+        if lis[i] > lis[st[-1]]:
+            result[st.pop()]=lis[i]
+        else:
+            break
+    st.append(i)
 
 
-
-
+# without Stack
 # n = int(sys.stdin.readline())
 # arr = list(map(int, sys.stdin.readline().split()))
 # for x in range(0,n):
