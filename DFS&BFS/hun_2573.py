@@ -5,9 +5,8 @@ input=sys.stdin.readline
 dx=[0,0,1,-1]
 dy=[1,-1,0,0]
 que = deque()
-#틀림
-def bfs(x,y):
 
+def bfs(x,y):
     que.append((x,y))
     while que:
         x,y=que.popleft()
@@ -45,6 +44,8 @@ if __name__=='__main__':
                 ar[i][j]-=count[i][j]
                 if ar[i][j]<0:
                     ar[i][j]=0
+                count[i][j]=0
+
         if tmp>=2:
             break
         if tmp==0:
