@@ -6,7 +6,7 @@ if __name__=="__main__":
     ar=[int(input()) for _ in range(n)]
     dp=[0]*(k+1)
     dp[0]=1
-
+    #ar : 1 2 5
     for num in ar:
         for i in range(1,k+1):
             if i-num>=0:

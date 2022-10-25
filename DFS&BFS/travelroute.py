@@ -17,7 +17,7 @@ def solution(tickets):
 
     dfs(start,0)
     return answer
-
+# 재도전 필요
 if __name__=="__main__":
     tickets=[['ICN','A'],['A','B'],['A','C'],['B','A'],['C','A']]
     print(solution(tickets))

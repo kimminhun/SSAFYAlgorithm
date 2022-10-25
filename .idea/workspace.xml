@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2dc3971-6e8d-4ff2-8f4b-c704163e1032" name="Changes" comment="gitignore 추가">
-      <change beforePath="$PROJECT_DIR$/DFS&amp;BFS/hun_2573.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS&amp;BFS/hun_2573.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS&amp;BFS/hun_2667.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS&amp;BFS/hun_2667.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS&amp;BFS/hun_7576.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS&amp;BFS/hun_7576.py" afterDir="false" />
+    <list default="true" id="f2dc3971-6e8d-4ff2-8f4b-c704163e1032" name="Changes" comment="DFS&amp;BFS">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS&amp;BFS/hun_2156.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS&amp;BFS/hun_2156.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS&amp;BFS/hun_2293.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS&amp;BFS/hun_2293.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS&amp;BFS/travelroute.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS&amp;BFS/travelroute.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +188,8 @@
       <workItem from="1662535053563" duration="3059000" />
       <workItem from="1662800306052" duration="4508000" />
       <workItem from="1662972306724" duration="3483000" />
+      <workItem from="1663049365685" duration="74000" />
+      <workItem from="1663050710284" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="DFS&amp;BFS 문제제출">
       <created>1662203393074</created>
@@ -202,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662203566249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DFS&amp;BFS">
+      <created>1663049396160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663049396160</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DFS&amp;BFS">
+      <created>1663049405508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663049405508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DFS&amp;BFS 문제제출" />
     <MESSAGE value="gitignore 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore 추가" />
+    <MESSAGE value="DFS&amp;BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS&amp;BFS" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SSAFYAlgorithm$hun_1697.coverage" NAME="hun_1697 Coverage Results" MODIFIED="1662436199006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
