@@ -41,10 +41,9 @@ def bfs():
         for j in range(M):
             if tmp[i][j] == 0:
                 cnt += 1
-    # result = max(result, cnt)
+
 
 max_cnt = 0
-# result = 0
 N, M = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(N)]
 
